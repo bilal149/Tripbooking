@@ -1,0 +1,574 @@
+<!-- ----------------------------------------cards slider---------------------------------------------------- -->
+
+
+<div class="CurchHomeText">
+
+
+    <div class="container-fluid my-container font">
+        <div class="row my-row bl">
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 my-col h1  ">
+                <div class="SpacingBox"></div>
+                <h1 style="font-family: montserrat-regular; margin-left:20%"><strong>Our Adventures</strong></h1>
+                <div class="under"></div>
+            </div>
+
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+        </div>
+
+        <div class="row bl font">
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class=" container carousel slide carousel-multi-item" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                    <li data-target="#multi-item-example" data-slide-to="3"></li>
+
+                </ol>
+                <!--/.Indicators-->
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First Slide-->
+
+
+
+    @for ($i = 0; $i < count($uploader); $i++)
+    @if ($i < 4) 
+
+                                <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                                <div class="card mb-2 class" style="background-color: #000">
+                                    <img class="card-img-top " style="height: 250px" src="{{ asset('' . $uploader[$i]->image_url) }}" alt="Card image cap">
+                                    <div class="card-body" style="background-color: #fff">
+                                        <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                                        <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                                        <div class="llink"><a href="" onclick="add($uploader[$i]->id);" style="color: black;"><strong>Explore More</strong></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+    
+    @else
+
+    <div class="carousel-item active">
+        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+            <div class="card mb-2 class" style="background-color: #000">
+                <img class="card-img-top " style="height: 250px" src="{{ asset('' . $uploader[$i]->image_url) }}" alt="Card image cap">
+                <div class="card-body" style="background-color: #fff">
+                    <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                    <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                    <div class="llink"><a href="{{ $uploader[$i]->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @endif
+    @endfor
+    </div>
+    </div>
+
+
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+       
+            <!--/.Carousel Wrapper-->
+     </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+UMARRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="CurchHomeText">
+
+
+    <div class="container-fluid my-container font">
+        <div class="row my-row bl">
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 my-col h1  ">
+                <div class="SpacingBox"></div>
+                <h1 style="font-family: montserrat-regular; margin-left:20%"><strong>Our Adventures</strong></h1>
+                <div class="under"></div>
+            </div>
+
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+        </div>
+
+        <div class="row bl font">
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class=" container carousel slide carousel-multi-item" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                    <li data-target="#multi-item-example" data-slide-to="3"></li>
+
+                </ol>
+                <!--/.Indicators-->
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First Slide-->
+
+
+
+    @for ($i = 0; $i < count($uploader); $i++)
+    @if ($i < 4) 
+
+                                <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                                <div class="card mb-2 class" style="background-color: #000">
+                                    <img class="card-img-top " style="height: 250px" src="{{ asset('' . $uploader[$i]->image_url) }}" alt="Card image cap">
+                                    <div class="card-body" style="background-color: #fff">
+                                        <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                                        <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                                        <div class="llink"><a href="" onclick="add($uploader[$i]->id);" style="color: black;"><strong>Explore More</strong></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+    
+    @else
+
+    <div class="carousel-item active">
+        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+            <div class="card mb-2 class" style="background-color: #000">
+                <img class="card-img-top " style="height: 250px" src="{{ asset('' . $uploader[$i]->image_url) }}" alt="Card image cap">
+                <div class="card-body" style="background-color: #fff">
+                    <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                    <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                    <div class="llink"><a href="{{ $uploader[$i]->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @endif
+    @endfor
+    </div>
+    </div>
+
+
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+       
+            <!--/.Carousel Wrapper-->
+     </div>
+    </div>
+</div>
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+<div class="CurchHomeText">
+
+
+    <div class="container-fluid my-container font">
+        <div class="row my-row bl">
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 my-col h1  ">
+                <div class="SpacingBox"></div>
+                <h1 style="font-family: montserrat-regular; margin-left:20%"><strong>Our Adventures</strong></h1>
+                <div class="under"></div>
+            </div>
+
+
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+        </div>
+
+        <div class="row bl font">
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class=" container carousel slide carousel-multi-item paragraph" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+
+                    @foreach( $uploader as $service1 )
+
+                    <li data-target="#multi-item-example" data-slide-to="{{ $loop->index }}" class="{{ $loop->first ? 'active' : '' }}"></li>
+                    
+                    @endforeach
+
+                </ol>
+                <!--/.Indicators-->
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First Slide-->
+                    @foreach( $uploader as $service1 )
+                    <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
+
+                        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                            <div class="card mb-2" style="background-color: #000">
+                                <img class="card-img-top" src="image/services-01.png" alt="Card image cap">
+                                <div class="card-body" style="background-color: #fff">
+                                    <h4 class="card-title ml-3">{{ $service1->heading }}</h4>
+                                    <p class="card-text"> {{ substr(strip_tags($service1->details), 0, 150) }}</p>
+                                    <div class="llink"><a href="{{ $service1->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                  
+                </div>
+
+
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+            </div>
+            <!--/.Carousel Wrapper-->
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="CurchHomeText">
+
+
+    <div class="container-fluid my-container font">
+        <div class="row my-row bl">
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 my-col h1  ">
+                <div class="SpacingBox"></div>
+                <h1 style="font-family: montserrat-regular; margin-left:20%"><strong>Our Adventures</strong></h1>
+                <div class="under"></div>
+            </div>
+
+
+            <div class="col-lg-4 col-xl-4 col-md-4 my-col bl">
+
+            </div>
+        </div>
+
+        <div class="row bl font">
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class=" container carousel slide carousel-multi-item paragraph" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+
+                    @foreach( $uploader as $service1 )
+
+                    <li data-target="#multi-item-example" data-slide-to="{{ $loop->index }}" class="{{ $loop->first ? 'active' : '' }}"></li>
+                    
+                    @endforeach
+
+                </ol>
+                <!--/.Indicators-->
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First Slide-->
+                    @foreach( $uploader as $service1 )
+                
+                    <div class="carousel-item {{ $loop->first ? 'active' : '' }}">
+
+                        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                            <div class="card mb-2" style="background-color: #000">
+                                <img class="card-img-top" src="image/services-01.png" alt="Card image cap">
+                                <div class="card-body" style="background-color: #fff">
+                                    <h4 class="card-title ml-3">{{ $service1->heading }}</h4>
+                                    <p class="card-text"> {{ substr(strip_tags($service1->details), 0, 150) }}</p>
+                                    <div class="llink"><a href="{{ $service1->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    @endforeach
+                  
+                </div>
+
+
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+            </div>
+            <!--/.Carousel Wrapper-->
+        </div>
+    </div>
+
+</div>
+
+<!---------------------------------------osama-------------------->
+   <!--Carousel Wrapper-->
+            <div id="multi-item-example" class=" container carousel slide carousel-multi-item paragraph" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                    <li data-target="#multi-item-example" data-slide-to="3"></li>
+
+                </ol>
+                <!--/.Indicators-->
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First Slide-->
+                    @for ($i=0; $i  < count($uploader);$i++)
+                    <div class="carousel-item active">
+
+                        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                            <div class="card mb-2" style="background-color: #000">
+                                <img class="card-img-top" src="image/services-01.png" alt="Card image cap">
+                                <div class="card-body" style="background-color: #fff">
+                                    <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                                    <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                                    <div class="llink"><a href="/info/{{ $uploader[$i]->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php 
+                        $i++;
+                        ?>
+                        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                            <div class="card mb-2" style="background-color: #000">
+                                <img class="card-img-top" src="image/services-01.png" alt="Card image cap">
+                                <div class="card-body" style="background-color: #fff">
+                                    <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                                    <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                                    <div class="llink"><a href="/info/{{ $uploader[$i]->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php 
+                        $i++;
+                        ?>
+                        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                            <div class="card mb-2" style="background-color: #000">
+                                <img class="card-img-top" src="image/services-01.png" alt="Card image cap">
+                                <div class="card-body" style="background-color: #fff">
+                                    <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                                    <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                                    <div class="llink"><a href="/info/{{ $uploader[$i]->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php 
+                        $i++;
+                        ?>
+                        <div class="col-md-6 col-xl-3 col-lg-3 border-0" style="float:left">
+                            <div class="card mb-2" style="background-color: #000">
+                                <img class="card-img-top" src="image/services-01.png" alt="Card image cap">
+                                <div class="card-body" style="background-color: #fff">
+                                    <h4 class="card-title ml-3">{{ $uploader[$i]->heading }}</h4>
+                                    <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                                    <div class="llink"><a href="/info/{{ $uploader[$i]->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endfor
+                    
+                  
+                </div>
+
+
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+                <div class="SpacingBox"></div>
+            </div>
+            <!--/.Carousel Wrapper-->
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class=" bl font" style="overflow-y:scroll;  overflow-x: hidden;
+
+         height:600px ;">
+
+             <!----------------------------- sliderr -->
+             
+                
+            
+                    @for ($i=0; $i  < count($uploader);$i++)
+                    
+
+                        <div class="" style="height:600px;display:inline-block;max-width:400px">
+                            
+                                <img class="" src="{{ asset('' . $uploader[$i]->image_url) }}" width="400px" style="max-height:600px" alt="Card image cap">
+                                <div class="" style="background-color: #fff">
+                                    <h4 class="cards">{{ $uploader[$i]->heading }}</h4>
+                                    <p class="card-text"> {{ substr(strip_tags($uploader[$i]->details), 0, 150) }}</p>
+                                    <div class="llink"><a href="/info/{{ $uploader[$i]->id }}" style="color: black;"><strong>Explore More</strong></a></div>
+                                </div>
+                            
+                        </div>
+                    
+                @endfor
+        
+                
+            
+         
+        </div>
+		
+		
+		<!----------------------------------->
+		@extends('layouts.app')
+
+@section('content')
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Login') }}</div>
+
+                <div class="card-body">
+                    <form method="POST" action="{{ route('login') }}">
+                        @csrf
+
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-6 offset-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                                    <label class="form-check-label" for="remember">
+                                        {{ __('Remember Me') }}
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    {{ __('Login') }}
+                                </button>
+
+                                @if (Route::has('password.request'))
+                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                        {{ __('Forgot Your Password?') }}
+                                    </a>
+                                @endif
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+
+
